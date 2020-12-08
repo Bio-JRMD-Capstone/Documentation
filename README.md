@@ -1,2 +1,2 @@
-# generic
-blank repo created for organization setting and branching example
+# The Library
+Feel free to drop any markdowns in here, pertaining to our project.
