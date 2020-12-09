@@ -1,0 +1,56 @@
+Users:
+* Site visitor
+* Registered user
+* Moderator
+* Super Admin
+
+
+As a site visitor when I am on the site I expect to be able to:
+* View all posts
+* Sort posts by date, location or type/category
+* Filter posts by date, location, type/category or keyword
+* Search all posts by location, type/category or keyword
+* Download/send a posted route map to my phone, computer, email, etc.
+* Register as a user
+
+
+As a Registered user when I log in I expect to be able to do everything a site visor can do plus:
+* Create a map route post
+* View my posts in one location
+* Edit my posts
+* Turn off comments on own posts
+* Delete my posts (removed from view?)
+* Suggest or add to posted routes
+* Flag other user’s posts for inappropriate content
+* Send/receive/respond to messages between users
+* View my profile information
+* Edit my profile information
+* Reset or recover my password via email (and/or security questions?)
+
+https://docs.google.com/document/d/14N05G_E9SJFo9zlrAvvqN6LGPAExM1eykk0BME4kaQg/edit?pli=1
+
+
+As a Super Admin[a] user when I log in I expect to be able to:
+* Track # of visitors to site
+* See list of users flagged by moderators
+* See list of posts flagged by users
+* Have full admin control of users: view, add, edit permissions(i.e. add/remove site access, add/remove admin permissions)
+* See how many posts are active
+* Have full admin control of posts: view, add, edit & inactivate
+* Have the ability to set keyword flags to monitor/moderate inappropriate posts
+* Have the ability to message all users
+
+
+As a Moderator[b] user when I log in I expect to be able to:
+* Flag users for admin review (approval of super admin for removal of user?)
+* See how many posts are active
+* See list of posts flagged by users
+* Have full admin control of posts: view, add, edit & inactivate
+* Have the ability to set keyword flags to monitor/moderate inappropriate posts
+* Have the ability to message all users
+
+
+User Table: 
+id, firstName, lastName, username, email, password (add location?), isAdmin, isModerator, nonLocked, Expired
+[a]Separate category or boolean isAdmin T/F (?) added to the User table?
+[b]Separate category or boolean isModerator T/F added to the User table?
